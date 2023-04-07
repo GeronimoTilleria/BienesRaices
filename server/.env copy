@@ -1,0 +1,4 @@
+MONGO_URL="mongodb://localhost/BienesRaicesDB"
+PUERTO=8000
+SECRET_KEY="keepThisSecret"
+# SECRET_KEY="usertoken"
