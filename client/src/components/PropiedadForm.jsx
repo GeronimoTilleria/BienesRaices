@@ -28,18 +28,8 @@ const PropiedadForm = ({ valoresIniciales, agregarPropiedad, botonTexto }) => {
 
         }
         obtenerVendedores();
+        console.log(vendedores[0]);
     }, []);
-
-    function handleSubmit(values) {
-        // Aquí puedes enviar los datos del formulario al servidor
-        // Luego, obtienes la URL de la imagen del servidor y la guardas en el estado imageUrl
-        const { imagen } = values;
-        const reader = new FileReader();
-        reader.onload = () => {
-            setImagenUrl(reader.result);
-        };
-        reader.readAsDataURL(imagen);
-    }
 
     const validationSchema = Yup.object().shape({
         titulo: Yup.string()

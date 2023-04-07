@@ -14,7 +14,7 @@ module.exports = function (app) {
 
     app.delete('/api/propiedades/:id', admin, PropiedadesControllers.eliminarPropiedad);
 
-    app.get('/api/propiedades_p/:id', PropiedadesControllers.buscarPropiedad);
+    app.get('/api/propiedades_p/:id', PropiedadesControllers.buscarPropiedadDetallado);
 
     app.get('/api/propiedades/:id', admin, PropiedadesControllers.buscarPropiedad);
 

@@ -4,6 +4,8 @@ const VendedoresControllers = require('../controllers/vendedor.controller');
 module.exports = function (app) {
     app.get('/api/vendedores', admin, VendedoresControllers.mostrarVendedores);
 
+    app.get('/api/vendedores_p', VendedoresControllers.mostrarVendedores);
+
     app.post('/api/vendedores', admin, VendedoresControllers.agregarVendedor);
 
     app.put('/api/vendedores/:id', admin, VendedoresControllers.editarVendedor);

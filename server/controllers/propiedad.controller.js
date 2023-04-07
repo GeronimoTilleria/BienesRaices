@@ -55,6 +55,17 @@ const eliminarPropiedad = async (req, res) => {
 
 const buscarPropiedad = async (req, res) => {
     try {
+        const propiedadBuscada = await Propiedad.findOne({ _id: req.params.id });
+        res.json(propiedadBuscada);
+    } catch (error) {
+        res.status(400);
+        res.json(error);
+    }
+
+}
+
+const buscarPropiedadDetallado = async (req, res) => {
+    try {
         const propiedadBuscada = await Propiedad.findOne({ _id: req.params.id }).populate('vendedor', 'nombre apellido telefono');
         res.json(propiedadBuscada);
     } catch (error) {
@@ -77,5 +88,6 @@ module.exports = {
     editarPropiedad,
     eliminarPropiedad,
     buscarPropiedad,
+    buscarPropiedadDetallado,
     getFile
 }
