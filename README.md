@@ -24,9 +24,9 @@ npm install`
 6. Una vez que el servidor esté en ejecución, abre una ventana del navegador web y navega a http://localhost:3000 para ver la página de inicio del sitio web.
 
 ## Uso
-Nuestro sitio web es fácil de usar. Simplemente busca por ubicación, precio, tamaño, número de habitaciones y otros criterios importantes para ti. Una vez que encuentres una propiedad que te interese, puedes ver fotos, detalles y especificaciones. También puedes contactarnos directamente a través del sitio web si tienes alguna pregunta o si te gustaría programar una visita.
+El sitio web es fácil de usar. Simplemente busca la casa o el departamento de su sueños y eliga el que mas le guste. Una vez que encuentres una propiedad que te interese, puedes ver fotos, detalles y especificaciones. También puedes contactarnos directamente a través del sitio web si tienes alguna pregunta o si te gustaría programar una visita.
 
 ## Créditos
-Este sitio web fue desarrollado por nuestro equipo de expertos en tecnología y diseño. Agradecemos a nuestros proveedores de imágenes y recursos gráficos, incluyendo Unsplash, Pexels y Freepik. También agradecemos a nuestros socios y colaboradores en la industria de bienes raíces por su apoyo y colaboración en la creación de este sitio web.
-
-¡Gracias por visitarnos! Esperamos que disfrutes navegando por nuestro sitio y encuentres la casa o departamento de tus sueños.
+Este sitio web fue desarrollado por Geronimo Tilleria
+LinkInd: https://www.linkedin.com/feed/
+Github: https://github.com/GeronimoTilleria
