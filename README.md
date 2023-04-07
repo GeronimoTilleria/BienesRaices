@@ -5,7 +5,7 @@ Este sitio web está diseñado para ayudarte a encontrar la casa o departamento 
 Para instalar y ejecutar este sitio web en tu máquina local, sigue estos pasos:
 
 1. Clona este repositorio en tu máquina local utilizando Git:
-`git clone https://github.com/usuario/nombre-del-repositorio.git`
+`git clone https://github.com/GeronimoTilleria/BienesRaices.git`
 
 2. En la carpeta server del proyecto, abre una terminal y ejecuta el siguiente comando para instalar las dependencias del servidor:
 `cd server
