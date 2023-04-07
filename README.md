@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+## Bienvenido a nuestro sitio web de ventas de casas y departamentos
+Este sitio web está diseñado para ayudarte a encontrar la casa o departamento de tus sueños. Contamos con una amplia variedad de opciones en diferentes tamaños y estilos. Nuestro equipo de egentes en bienes raíces está aquí para ayudarte en cada paso del proceso de compra.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Instalación
+Para instalar y ejecutar este sitio web en tu máquina local, sigue estos pasos:
 
-## Available Scripts
+1. Clona este repositorio en tu máquina local utilizando Git:
+`git clone https://github.com/usuario/nombre-del-repositorio.git`
 
-In the project directory, you can run:
+2. En la carpeta server del proyecto, abre una terminal y ejecuta el siguiente comando para instalar las dependencias del servidor:
+`cd server
+npm install`
 
-### `npm start`
+3. Luego, ve a la carpeta "client" y ejecuta el siguiente comando para instalar las dependencias del cliente:
+`cd client
+npm install`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+4. Crea un archivo .env en la carpeta server y en la carpeta client del proyecto y copia el contenido del archivo .env_copy en él. Este archivo contiene las variables de entorno necesarias para ejecutar el servidor y se utiliza para almacenar información sensible, como claves de API y credenciales de base de datos.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+5. Ahora, puedes ejecutar el servidor y el cliente utilizando los siguientes comandos en sus respectivas carpetas:
+`nodemon server.js`
+`npm start`
 
-### `npm test`
+6. Una vez que el servidor esté en ejecución, abre una ventana del navegador web y navega a http://localhost:3000 para ver la página de inicio del sitio web.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Uso
+Nuestro sitio web es fácil de usar. Simplemente busca por ubicación, precio, tamaño, número de habitaciones y otros criterios importantes para ti. Una vez que encuentres una propiedad que te interese, puedes ver fotos, detalles y especificaciones. También puedes contactarnos directamente a través del sitio web si tienes alguna pregunta o si te gustaría programar una visita.
 
-### `npm run build`
+## Créditos
+Este sitio web fue desarrollado por nuestro equipo de expertos en tecnología y diseño. Agradecemos a nuestros proveedores de imágenes y recursos gráficos, incluyendo Unsplash, Pexels y Freepik. También agradecemos a nuestros socios y colaboradores en la industria de bienes raíces por su apoyo y colaboración en la creación de este sitio web.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+¡Gracias por visitarnos! Esperamos que disfrutes navegando por nuestro sitio y encuentres la casa o departamento de tus sueños.
