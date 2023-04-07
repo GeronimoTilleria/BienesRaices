@@ -1,6 +1,6 @@
 import React from 'react'
 import Logo from '../components/Logo'
-import NavigationPublic from '../components/header/NavigationPublic'
+import NavigationPublic from '../components/NavigationPublic'
 
 const HomeHeader = () => {
     return (
