@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React, { useContext } from 'react'
 import { Link } from 'react-router-dom'
-import { LoginContext } from '../../context/LoginContext'
+import { LoginContext } from '../context/LoginContext'
 
 const Navigation = () => {
     //const navigate = useNavigate();

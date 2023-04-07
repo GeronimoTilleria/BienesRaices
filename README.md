@@ -1,4 +1,4 @@
-## Bienvenido a nuestro sitio web de ventas de casas y departamentos
+# Bienvenido a BienesRaíces
 Este sitio web está diseñado para ayudarte a encontrar la casa o departamento de tus sueños. Contamos con una amplia variedad de opciones en diferentes tamaños y estilos. Nuestro equipo de egentes en bienes raíces está aquí para ayudarte en cada paso del proceso de compra.
 
 ## Instalación

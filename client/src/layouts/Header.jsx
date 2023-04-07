@@ -1,6 +1,6 @@
 import React from 'react'
-import Logo from '../components/header/Logo'
-import Navigation from '../components/header/Navigation'
+import Logo from '../components/Logo'
+import Navigation from '../components/Navigation'
 
 const Header = () => {
     return (

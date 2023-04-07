@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../components/header/Logo'
+import Logo from '../components/Logo'
 import NavigationPublic from '../components/header/NavigationPublic'
 
 const HomeHeader = () => {
